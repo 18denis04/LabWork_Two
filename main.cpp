@@ -13,6 +13,12 @@ class Duck {
   void fly(){
     std::cout << "I belive, I can fly!\n"
   }
+
+  void go(){
+    std::cout << "I can rum away from you)\n";
+  }
+
+
 };
 
 int main() {
@@ -25,5 +31,6 @@ int main() {
 
   my_duck.fly();
 
+  my_duck.go();
   return 0;
 }
