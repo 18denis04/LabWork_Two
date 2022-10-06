@@ -14,6 +14,10 @@ class Duck {
     std::cout << "I'm swimming!! Yachuuu!\n";
   }
 
+  void fly(){
+    std::cout << "I belive, I can fly!\n"
+  }
+
 };
 
 int main() {
@@ -24,7 +28,10 @@ int main() {
   my_duck.my_name = "John";
   my_duck.say_name();
 
+
   my_duck.swim();
+
+  my_duck.fly();
 
   return 0;
 }
