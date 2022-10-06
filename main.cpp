@@ -10,6 +10,10 @@ class Duck {
     std::cout << "My name is " << my_name << "!\n";
   }
 
+  void go(){
+    std::cout << "I can rum away from you)\n";
+  }
+
 };
 
 int main() {
@@ -20,5 +24,7 @@ int main() {
   my_duck.my_name = "John";
   my_duck.say_name();
 
+
+  my_duck.go();
   return 0;
 }
